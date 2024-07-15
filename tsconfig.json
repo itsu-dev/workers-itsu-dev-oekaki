@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "lib": ["es6"],
+    "module": "esnext",                                  /* Specify what module code is generated. */
+    "rootDir": "src",                                 /* Conditions to set in addition to the resolver-specific defaults when resolving imports. */
+    "resolveJsonModule": true,                            /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
+    "outDir": "lib",              /* Allow 'import x from y' when a module doesn't have a default export. */
+    "esModuleInterop": true,                            /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "strict": true,                                /* Skip type checking .d.ts files that are included with TypeScript. */
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "moduleResolution": "Node",
+    "types": ["@cloudflare/workers-types", "@types/node"]
+  },
+  "include": ["src/**/*"]
+}
